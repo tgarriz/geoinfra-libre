@@ -23,18 +23,14 @@
     <layer c="gasoducto" t="Transportadora Gas del Norte" n="tgn_pba" u="Geodesia" />
     <layer c="habitat" t="Villas y Asentamientos" n="publico:villas_y_asentamientos_confirmados_rppvap" u="Habitat" />
     <layer c="gasoducto" t="Red Operativa Bagsa" n="red_operativa" u="Geodesia" />
-    <!--<layer c="grandesobras" t="Arquitectura" n="grandes_obras_dpa" u="Geodesia" />
-    <layer c="grandesobras" t="Vialidad" n="obras_vialidad2016" u="Geodesia" />
-    <layer c="grandesobras" t="DIPAC" n="grandes_obras_dipac" u="Geodesia" />-->
     <layer c="Vialidad" t="Red Vial Nacional" n="Geodesia:rutas_nac" u="Geobasig" />
     <layer c="Vialidad" t="Red Vial Provincial" n="red-vial" u="Geodesia" />
     <layer c="Vialidad" t="Red Vial Secundaria" n="Geodesia:secundaria" u="Geobasig" />
-    <layer c="Ada" t="Industrias" n="industrias_ada" u="Geodesia" />
-    <layer c="Ada" t="Cuencas" n="cuencas" u="Geodesia" />
-    <!--<layer c="Geodesia" t="Cob.Hidrica_Noroeste-2009" n="cub_hid_2009NO" u="Geodesia" />
-    <layer c="Geodesia" t="Cob.Hidrica_Noroeste-2002" n="cub_hid_2002" u="Geodesia" />
-    <layer c="Geodesia" t="Cob.Hidrica_Noroeste-2001" n="cub_hid_2001NO" u="Geodesia" />
-    <layer c="Geodesia" t="Cob.Hidrica_Noroeste-1998" n="cub_hid_1998NO" u="Geodesia" />-->
+    <layer c="Ada" t="Industrias" n="industrias14" u="ADA1" />
+    <layer c="Ada" t="Planchetas" n="planchetero" u="ADA1" />
+    <layer c="Ada" t="Cuencas SSRH" n="cuencas_ssrh" u="ADA1" />
+    <layer c="Ada" t="Regiones Hidricas" n="reg_hidricas" u="ADA1" />
+    <layer c="Ada" t="Cuencas Conurbano" n="cuencas_conu" u="ADA1" />
     <layer c="Geodesia" t="ParcelarioTransparente" n="Parcelario_Transparente" u="Geobasig" />
     <layer c="Geodesia" t="Parcelario" n="ParcelarioCompleto" u="Geodesia" />
     <layer c="Geodesia" t="Red Geoba" n="geoba" u="Geobasig" />
@@ -46,13 +42,13 @@
     <layer c="Red_a" t="Acueductos" n="acueductos_absa_f" u="Geodesia" />
     <layer c="Red_a" t="Operador de Agua" n="prestadores" u="Geodesia" s="operador_agua" />
     <layer c="Red_a" t="Pozos de agua" n="pozosconget" u="Geodesia" />
-    <layer c="Red_a" t="Cobertura de Agua" n="cobertura_agua" u="Geodesia" />
+    <layer c="Red_a" t="Cobertura de Agua" n="gcobertura_agua" u="Geodesia" />
     <layer c="Red_a" t="Plantas" n="plantas_a" u="Geodesia" />
     <layer c="Red_a" t="Red Fina" n="gred_de_agua" u="Geodesia" />
     <layer c="Red_a" t="Tanques y Cisternas" n="tyc_conlocalidades" u="Geodesia" />
     <layer c="Red_c" t="Camaras" n="camaras" u="Geodesia" /> 
     <layer c="Red_c" t="Operador de Cloaca" n="prestadores" u="Geodesia" s="operador_cloaca" />
-    <layer c="Red_c" t="Cobertura de Cloaca" n="cobertura_cloaca" u="Geodesia" />    
+    <layer c="Red_c" t="Cobertura de Cloaca" n="gcobertura_cloaca" u="Geodesia" />    
     <layer c="Red_c" t="Plantas" n="plantas_c" u="Geodesia" />
     <layer c="Red_c" t="Red Fina" n="gred_de_cloaca" u="Geodesia" />
     <layer c="Secciones" t="Sección VIII" n="viii_seccion" u="Geodesia" />
@@ -91,23 +87,4 @@
     <layer c="energia" t="Centros de transformación MT/MT de La Plata - EDELAP" n="edelap_centros_transf_mt_mt" u="Energia" />
     <layer c="energia" t="Centros de transformación MT/BT de La Plata - EDELAP" n="edelap_centros_transf_mt_bt" u="Energia" />
     <layer c="energia" t="Líneas de alta y media tensión del Interior de Buenos Aires - CFEE" n="cfee_buenosaires_red_at_mt" u="Energia" />
-    <!--
-    <layer c="Pluri_arq" t="2017" n="pluri_comisarias2017" u="Geodesia" />
-    <layer c="Pluri_arq" t="2018" n="pluri_comisarias2018" u="Geodesia" />
-    <layer c="Pluri_arq" t="2019" n="pluri_comisarias2019" u="Geodesia" />    
-    <layer c="Pluri_a" t="2017" n="pluri2017_a" u="Geodesia" />
-    <layer c="Pluri_a" t="2018" n="pluri2018_a" u="Geodesia" />
-    <layer c="Pluri_a" t="2019" n="pluri2019_a" u="Geodesia" />
-    <layer c="Pluri_a" t="2020-2023" n="pluri_20_23_a" u="Geodesia" />
-    <layer c="Pluri_a" t="2024-2026" n="pluri_24_26_a" u="Geodesia" />
-    <layer c="Pluri_c" t="2017" n="pluri2017_c" u="Geodesia" />
-    <layer c="Pluri_c" t="2018" n="pluri2018_c" u="Geodesia" />
-    <layer c="Pluri_c" t="2019" n="pluri2019_c" u="Geodesia" />
-    <layer c="Pluri_c" t="2020-2023" n="pluri_20_23_c" u="Geodesia" />
-    <layer c="Pluri_c" t="2024-2026" n="pluri24_26_c" u="Geodesia" />
-    <layer c="Salud" t="U.P.A." n="upa" u="Geodesia" />
-    <layer c="Salud" t="Centros Municipales" n="municipales" u="Geodesia" />
-    <layer c="Salud" t="Centros Provinciales" n="hosp_prov" u="Geodesia" />
-    <layer c="arba" t="Cotas" n="Cotas" u="ARBA" />
-    -->
 </layers>
