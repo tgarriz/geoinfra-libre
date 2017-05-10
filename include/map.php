@@ -45,7 +45,7 @@ include_once '../include/protect.php';
             <ul id="sidebar">
                 <li><span data-href="#layers-content" title="Capas" class="active"><i class="icon-layers"></i></span></li>
                 <li><span data-href="#tools-content" title="Herramientas" ><i class="icon-tools"></i></span></li>
-                <li><span data-href="#location-content" title="Ubicación" ><i class="icon-location"></i></span></li>
+                <li><span data-href="#location-content" title="Búsqueda" ><i class="icon-search"></i></span></li>
                 <li><span data-href="#legend-content" title="Leyenda" ><i class="icon-list"></i></span></li>
                 <li><a href="logout.php"><span data-href="#" title="Salir" ><i class="icon-power"></i></span></a></li>
             </ul>

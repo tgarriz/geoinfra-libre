@@ -4,8 +4,8 @@ Class Urls {
 
     static function get($url) {
         $urls = array(
-            "Geobasig" => "http://geobasig.com.ar/geoserver29/Geodesia/wms?",
-            "Geodesia" => "http://desarrollo.geobasig.com.ar/geoserver29/Geodesia/wms?",
+            //"Geobasig" => "http://geobasig.com.ar/geoserver29/Geodesia/wms?",
+            "Geodesia" => "http://geobasig.com.ar/geoserver29/Geodesia/wms?",
             "IGN" => "http://wms.ign.gob.ar/geoserver/wms?",
             "Habitat" => "http://190.188.234.6/geoserver/wms?",
             "ARBA" => "http://cartoservices.arba.gov.ar/geoserver/cartoservice/wms",
