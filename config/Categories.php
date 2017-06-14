@@ -15,7 +15,9 @@ Class Categories {
             "IGN" => "IGN",
             "habitat" => "SUBS. TIERRAS URB. Y VIVIENDA",
             "energia" => "ENERGIA",
-            "gasoducto" => "GASODUCTOS"
+            "gasoducto" => "GASODUCTOS",
+	    "mineria" => "MINERIA",
+	    "hidraulica" => "HIDRAULICA"
             //"Oceba" => "OCEBA",            
             //"Salud" => "SALUD".
             //"Pluri_c" => "PLURIANUAL CLOACA",

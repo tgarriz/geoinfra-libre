@@ -18,6 +18,7 @@
  Cualquier opción requerida que no esté seteada la capa no se cargará
 -->
 <layers>
+    <layer c="mineria" t="Minas y Canteras" n="minas_canteras" u="Geodesia" />
     <layer c="gasoducto" t="Gasoducto Troncal" n="gaservipba" u="Geodesia" />
     <layer c="gasoducto" t="Camuzzi" n="camuzzi_pba" u="Geodesia" />
     <layer c="gasoducto" t="Transportadora Gas del Norte" n="tgn_pba" u="Geodesia" />
@@ -87,4 +88,6 @@
     <layer c="energia" t="Centros de transformación MT/MT de La Plata - EDELAP" n="edelap_centros_transf_mt_mt" u="Energia" />
     <layer c="energia" t="Centros de transformación MT/BT de La Plata - EDELAP" n="edelap_centros_transf_mt_bt" u="Energia" />
     <layer c="energia" t="Líneas de alta y media tensión del Interior de Buenos Aires - CFEE" n="cfee_buenosaires_red_at_mt" u="Energia" />
+    <layer c="hidraulica" t="Cuencas" n="cuencas" u="hid" />
+    <layer c="hidraulica" t="Cuencas Detalle" n="cuencas_detalle" u="hid" />
 </layers>
