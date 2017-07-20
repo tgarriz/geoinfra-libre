@@ -90,4 +90,5 @@
     <layer c="energia" t="Líneas de alta y media tensión del Interior de Buenos Aires - CFEE" n="cfee_buenosaires_red_at_mt" u="Energia" />
     <layer c="hidraulica" t="Cuencas" n="cuencas" u="hid" />
     <layer c="hidraulica" t="Cuencas Detalle" n="cuencas_detalle" u="hid" />
+    <layer c="hidraulica" t="LagosYLagunas" n="lagunas" u="hid" />
 </layers>
